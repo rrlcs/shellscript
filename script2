@@ -1,0 +1,18 @@
+# /bin/bash
+max=6
+for (( i=1; i<=max; i++))
+do
+	echo > fred1
+	echo > fred2
+	echo $1
+	if [ $1-ge$max ]
+	then
+		echo 'Get Lost'
+		echo > fred3
+		#exit 1
+	fi
+
+done
+read
+
+$(rm -rf fred*)

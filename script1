@@ -1,0 +1,21 @@
+# /bin/bash
+#read response
+
+response=1
+value='Bye Bye'
+while [ $response -le 10 ]
+do
+	echo
+	echo $response
+#	echo 'Nice You Have Got the correct choice'
+	sleep 1
+	response=$(($response + 1))
+#	if [ "$response" -eq "5" ]
+#	then
+#		echo $value
+#		exit 1
+#	else
+#		echo 'condition not satisfied'
+#	fi
+
+done	

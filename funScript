@@ -1,0 +1,11 @@
+# /bin/bash
+set
+read
+func() 
+{ 
+echo 'Here is your symbols Table'
+set
+echo 'here is your disk usage' 
+df -k
+}
+func

@@ -1,0 +1,14 @@
+# /bin/bash
+var=5
+echo $var
+while [ "$1"!="$var" ]
+do
+	echo 'Hii'
+	echo > file
+	echo $1
+	shift
+	if [ true ]
+	then
+		exit 1
+	fi
+done

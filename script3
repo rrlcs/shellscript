@@ -1,0 +1,11 @@
+# /bin/bash
+
+foo=1
+while [ $foo -le 20 ]
+do
+	echo " "
+	sleep 1
+	echo $foo
+	foo=$(($foo + 1))
+done
+exit 0
